@@ -63,4 +63,12 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ---
 
+## 🚧 Construção
+
+- **Finalização do backend**: Em construção
+- **Frontend**: Em construção
+- **Mobile**: Em construção
+
+---
+
 Desenvolvido por Diego Veiga 🚀 [Acesse meu LinkedIn](https://linkedin.com/in/diegoveigass)
