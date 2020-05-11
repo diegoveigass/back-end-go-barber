@@ -17,6 +17,15 @@ Criação do back-end da aplicação GoBarber. Uma aplicação que gerencia agen
 
 Utilizando tudo que foi assimiliado até agora no **node.js** juntamente com o **TypeScript**, com banco de dados utilizando o **TypeORM** e o envio dos avatares dos prestadores utilizando o **Multer**.
 
+Algumas funcionalidades foram implementadas, tais como:
+- Cadastro de usuários;
+- Cadastro e listagem de agendamentos;
+- Hash de senha: Gera um hash de senha para o banco de dados, fazendo com que essa senha esteja protegida caso ocorra algum vazamento de informações
+- Autenticação JWT: É gerado um token de autenticação caso as credenciais cadastradas no banco de dados estejam corretas e retorna esse token para utilizar nas rotas que necessitam, no caso a rota de /appointments;
+- Upload de arquivos: Utilizando o multer foi possível criar uma configuração para o upload de avatar (foto de perfil do usuário).
+
+Futuramente serão implementadas mais funcionalidades.
+
 
 ---
 
