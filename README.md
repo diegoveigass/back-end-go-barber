@@ -15,7 +15,7 @@
 
 Criação do back-end da aplicação GoBarber. Uma aplicação que gerencia agendamentos de clientes nas barbearias cadastradas. Permitindo que o cliente se cadastre na aplicação e marque um agendamento com algum prestador de serviços.
 
-Utilizando tudo que foi assimiliado até agora no **node.js** juntamente com o **TypeScript**, com banco de dados utilizando o **TypeORM** e o envio dos avatares dos prestadores utilizando o **Multer**.
+Utilizando tudo que foi assimiliado até agora no **Node.js** juntamente com o **TypeScript**, com banco de dados utilizando o **TypeORM** e o envio dos avatares dos prestadores utilizando o **Multer**.
 
 Algumas funcionalidades foram implementadas, tais como:
 - Cadastro de usuários;
@@ -24,8 +24,19 @@ Algumas funcionalidades foram implementadas, tais como:
 - Autenticação JWT: É gerado um token de autenticação caso as credenciais cadastradas no banco de dados estejam corretas e retorna esse token para utilizar nas rotas que necessitam, no caso a rota de /appointments;
 - Upload de arquivos: Utilizando o multer foi possível criar uma configuração para o upload de avatar (foto de perfil do usuário).
 
-Futuramente serão implementadas mais funcionalidades.
+### Arquitetura e testes no Node.js
 
+Nesse módulo foram aplicados arquitetura de software fazendo com que a aplicação seja totalmente escalável, assim também como testes automatizados, e a metodologia TDD (Test Driven Development).
+
+Utilizamos também o DDD (Domain Driven Design) isolando a estrutura pela sua área de domínio, pensando em qual a área de conhecimento daquele módulo/arquivo. Nesse caso foi separado em dois módulos, o módulo de agendamento e de usuário.
+
+**Domain Driven Design**
+
+Utiliza uma metodotologia ágil como o **SCRUM**, nem sempre será utilizado igual para todo tipo de aplicação, não precisamos aplicar todos os conceitos que existem dentro do DDD, utilizamos apenas as funcionalidades que são mais significantes para o momento da aplicação.
+
+**Test Driven Development**
+
+Pode ser utilizado juntamente com o DDD, metodologia de criar testes antes mesmo de criar a funcionalidade. Se criarmos os testes antes conseguimos enxergar de uma maneira mais clara de como nossa aplicação deve funcionar. 
 
 ---
 
