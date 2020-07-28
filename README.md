@@ -59,7 +59,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [TypeORM](https://typeorm.io/#/)
 - [date-fns](https://date-fns.org/)
 - [cors](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS)
-- [bcryptjs](hhttps://www.npmjs.com/package/bcryptjs)
+- [bcryptjs](https://www.npmjs.com/package/bcryptjs)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [mongodb](https://www.mongodb.com/)
 - [nodemailer](https://nodemailer.com/about/)
