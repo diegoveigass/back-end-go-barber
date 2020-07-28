@@ -49,6 +49,15 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [TypeScript](https://www.typescriptlang.org/)
 - [jest](https://jestjs.io/)
 - [TypeORM](https://typeorm.io/#/)
+- [date-fns](https://date-fns.org/)
+- [cors](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Controle_Acesso_CORS)
+- [bcryptjs](hhttps://www.npmjs.com/package/bcryptjs)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [mongodb](https://www.mongodb.com/)
+- [nodemailer](https://nodemailer.com/about/)
+- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
+- [tsyringe](https://github.com/microsoft/tsyringe)
+- [class-transform](https://github.com/typestack/class-transformer)
 
 ---
 
@@ -79,15 +88,17 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
   # Iniciar o projeto
   $ yarn dev:server
+  
+  # Verificar os testes
+  $ yarn test
 ```
 
 ---
 
 ## 🚧 Construção
 
-- **Finalização do backend**: Em construção
-- **Frontend**: Em construção
-- **Mobile**: Em construção
+- **Frontend**: https://github.com/diegoveigass/front-end-go-barber
+- **Mobile**: https://github.com/diegoveigass/mobile-go-barber
 
 ---
 
