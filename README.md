@@ -24,7 +24,7 @@ Algumas funcionalidades foram implementadas, tais como:
 - Autenticação JWT: É gerado um token de autenticação caso as credenciais cadastradas no banco de dados estejam corretas e retorna esse token para utilizar nas rotas que necessitam, no caso a rota de /appointments;
 - Upload de arquivos: Utilizando o multer foi possível criar uma configuração para o upload de avatar (foto de perfil do usuário).
 
-### Arquitetura e testes no Node.js
+### **Arquitetura e testes no Node.js**
 
 Nesse módulo foram aplicados arquitetura de software fazendo com que a aplicação seja totalmente escalável, assim também como testes automatizados, e a metodologia TDD (Test Driven Development).
 
@@ -36,7 +36,15 @@ Utiliza uma metodotologia ágil como o **SCRUM**, nem sempre será utilizado igu
 
 **Test Driven Development**
 
-Pode ser utilizado juntamente com o DDD, metodologia de criar testes antes mesmo de criar a funcionalidade. Se criarmos os testes antes conseguimos enxergar de uma maneira mais clara de como nossa aplicação deve funcionar. 
+Pode ser utilizado juntamente com o DDD, metodologia de criar testes antes mesmo de criar a funcionalidade. Se criarmos os testes antes conseguimos enxergar de uma maneira mais clara de como nossa aplicação deve funcionar.
+
+### **Continuando back-end do app**
+
+Nesse módulo aplicamos conceitos mais complexos do back-end como relacionamentos, trabalhos em segundo plano, cache, banco de dados não-relacionais e segurança.
+
+### **Finalizando back-end do app**
+
+Nesse módulo foram aplicados as últimas funcionalidades do app e também conceitos do MongoDB, variáveis ambiente, validação, cache e etc.
 
 ---
 
@@ -58,6 +66,11 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
 - [tsyringe](https://github.com/microsoft/tsyringe)
 - [class-transform](https://github.com/typestack/class-transformer)
+- [rate-limiter](https://github.com/nfriedly/express-rate-limit)
+- [redis](https://redis.io/)
+- [celebrate](https://github.com/arb/celebrate)
+- [aws-sdk](https://aws.amazon.com/pt/tools/)
+
 
 ---
 
@@ -88,7 +101,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
   # Iniciar o projeto
   $ yarn dev:server
-  
+
   # Verificar os testes
   $ yarn test
 ```
